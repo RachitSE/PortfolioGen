@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     darkMode: ["class"],
-    content: [
-    "./src/app/**/*.{js,ts,jsx,tsx}", 
-    "./src/components/**/*.{js,ts,jsx,tsx}"
-  ],
+	content: [
+		"./src/**/*.{js,ts,jsx,tsx}", 
+		"./components/**/*.{js,ts,jsx,tsx}",
+		"./app/**/*.{js,ts,jsx,tsx}" // include app directory if you're using Next.js 13+ App Router
+	  ],
   theme: {
   	extend: {
   		colors: {
