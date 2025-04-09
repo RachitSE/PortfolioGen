@@ -50,16 +50,17 @@ module.exports = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
-  		fontFamily: {
-  			futuristic: [
-  				'Orbitron"',
-  				'sans-serif'
-  			],
-  			sleek: [
-  				'Poppins"',
-  				'sans-serif'
-  			]
-  		},
+fontFamily: {
+  futuristic: [
+    'Orbitron',  // ✅ fixed
+    'sans-serif'
+  ],
+  sleek: [
+    'Poppins',   // ✅ fixed
+    'sans-serif'
+  ]
+}
+,
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
