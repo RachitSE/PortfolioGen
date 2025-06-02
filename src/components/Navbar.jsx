@@ -20,9 +20,9 @@ export default function Navbar() {
       <nav className="w-full px-6 py-4 flex justify-between items-center bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] text-white shadow-lg z-50 fixed top-0">
         <h1
           onClick={() => handleScroll("home")}
-          className="text-2xl md:text-3xl font-bold tracking-wide font-mono glow-text cursor-pointer bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
+          className="text-2xl md:text-3xl font-bold tracking-wide font-mono glow-text cursor-pointer bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100 bg-clip-text text-transparent"
         >
-          PortForge<span className="text-pink-400">.</span>
+          PortForge<span className="text-pink-100">.</span>
         </h1>
 
         {/* Desktop Nav */}
